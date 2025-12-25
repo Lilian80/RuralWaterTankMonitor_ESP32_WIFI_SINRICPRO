@@ -1,0 +1,20 @@
+# Secrets
+secrets_nivel.h
+secrets*.h
+
+# Arduino / build artifacts
+build/
+out/
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.a
+*.d
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
