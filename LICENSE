@@ -1,21 +1,34 @@
-MIT License
+LICENÇA DE USO RESTRITO
 
-Copyright (c) 2025 Lili_Costa
+Copyright (c) 2025 - Lilian de Ávila Costa
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+LICENÇA DE USO RESTRITO – RuralWaterTankMonitor (ESP32 + Wi-Fi/Sinric Pro)
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Este software (firmware), seus arquivos associados (incluindo *.ino, *.h, *.cpp, documentação, esquemas e configurações), foi desenvolvido para uso controlado no dispositivo RuralWaterTankMonitor destinado ao monitoramento de nível de água em reservatórios, com base em ESP32 + HC-SR04, indicação local por LEDs e telemetria via Wi-Fi/Sinric Pro.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+É PROIBIDO:
+
+Copiar, redistribuir, publicar, disponibilizar ou compartilhar o sistema (total ou parcial), em qualquer meio, sem autorização formal do autor.
+Realizar engenharia reversa, descompilar, modificar, adaptar, derivar ou integrar o código-fonte a outros projetos sem consentimento expresso.
+Utilizar o sistema para fins comerciais, prestação de serviço, venda de dispositivos, cursos pagos, consultorias, pesquisa acadêmica ou divulgação técnica sem autorização formal.
+Remover ou alterar créditos, autoria, versão, avisos de licença e/ou avisos de confidencialidade.
+É PERMITIDO:
+Uso privado e controlado para instalação e operação do dispositivo em ambiente autorizado pelo responsável pelo projeto.
+Manutenção operacional do dispositivo (ex.: atualização via USB-C, troca de bateria, calibração de altura cheio/vazio), desde que não envolva modificação do código-fonte.
+Treinamentos internos e demonstrações técnicas apenas do funcionamento, em ambientes controlados e autorizados, sem repasse do código.
+RESPONSABILIDADE E GARANTIAS:
+O software é fornecido “como está”, sem garantias de desempenho, disponibilidade de rede, precisão absoluta de medição ou adequação a qualquer finalidade específica.
+O usuário/instalador é responsável por validação elétrica (níveis de tensão, divisor do ECHO, proteção contra umidade), segurança de instalação e operação do hardware em campo.
+O autor não se responsabiliza por danos decorrentes de montagem incorreta, falhas de alimentação, infiltração, oxidação, mau uso, ou uso fora das especificações.
+DADOS E SEGREDOS:
+Credenciais e chaves (Wi-Fi, Sinric, tokens) são de responsabilidade do operador. É vedado publicar credenciais em repositórios ou qualquer meio público.
+Recomenda-se manter secrets_nivel.h fora do controle de versão e utilizar arquivo de exemplo (secrets_nivel.example.h).
+O uso não autorizado, total ou parcial, constitui violação de direitos autorais e poderá ser objeto de medidas legais cabíveis.
+Contato para autorização e informações:
+
+Lilian de Ávila Costa
+Desenvolvedor Técnico
+lilianavilausp@gmail.com
+
+Versão: 1.4.1
+Data: Dezembro/2025
